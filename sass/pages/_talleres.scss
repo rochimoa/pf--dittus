@@ -1,0 +1,28 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(98, 125, 214);
+    padding-top: 140px;
+}
+
+.containerrrr {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+
+    img {
+        padding-left: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:90%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}

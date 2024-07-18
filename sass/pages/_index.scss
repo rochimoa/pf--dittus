@@ -1,0 +1,79 @@
+.fotosvintage {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 500px;
+        margin: 60px;
+    }
+}
+
+
+
+.imagen-home {
+    display: flex;
+    justify-content: center;
+
+    img {
+        padding-top: 0px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+}
+
+.sale {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 400px;
+        padding-bottom: 20px;
+    }
+
+}
+
+.imagenes {
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 70px;
+
+    img {
+        display: flex;
+        width: 300px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    p {
+        padding-top: 20px;
+        font-size: 18px;
+        color: rgba(165, 16, 140);
+    }
+
+}
+
+.imagenes2 {
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 70px;
+
+    img {
+        display: flex;
+        width: 300px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    p {
+        padding-top: 20px;
+        font-size: 18px;
+        color: rgba(165, 16, 140);
+    }
+
+}
