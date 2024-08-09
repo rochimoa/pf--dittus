@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    padding-left: 350px;
+    padding-left: 100px;
 
     ul {
         list-style: none;
@@ -29,4 +29,255 @@ nav {
         }
     }
 
+}
+
+.container-fluid {
+    display: flex;
+    position: relative;
+    left: 100px;
+    font-size: 10px;
+
+    input {
+        font-size: 13px;
+        width: 90px;
+    }
+}
+
+nav.navbar {
+    position: relative;
+    width: 20px;
+}
+
+
+.menuhamburguesa {
+
+    .nav__label {
+        color: rgba(165, 16, 140);
+        width: 40px;
+        height: auto;
+        position: relative;
+        left: 300px;
+        top: 15px;
+        display: none;
+    }
+
+}
+
+.nav__input {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width:350px) {
+
+    nav li {
+        font-size: 10px;
+        position: relative;
+        right: 50px;
+        left: 10px;
+        top: 45px;
+    }
+
+    .logo img {
+        width: 80px;
+        height: auto;
+    }
+
+    .imagen-home {
+        width: 100%;
+    }
+
+    .imagenes,
+    .container,
+    .container2,
+    .container3,
+    .container4,
+    .containerrrr {
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr;
+
+        p {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .imagen11 img {
+            width: 200px;
+        }
+
+        .imagen1 img {
+            width: 200px;
+
+        }
+
+        .imagen4 img {
+            width: 200px;
+        }
+
+        .conjunto8 img {
+            width: 150px;
+        }
+
+        .conjunto11 img {
+            width: 150px;
+        }
+
+        .conjunto7 img {
+            width: 200px;
+        }
+
+        img {
+            width: 200px;
+            align-items: center;
+
+
+        }
+    }
+
+    .imagenes img {
+        width: 200px;
+        align-items: center;
+        position: relative;
+        left: 80px;
+    }
+
+    .container {
+        p {
+            text-align: center;
+            position: relative;
+            left: 110px;
+        }
+
+        img {
+            position: relative;
+            left: 90px;
+            width: 200px;
+        }
+    }
+
+    .container4 {
+
+        .imagen5 img {
+            width: 200px;
+        }
+
+        .imagen6 img {
+            width: 200px;
+        }
+
+        .imagen7 img {
+            width: 200px;
+        }
+
+        .imagen8 img {
+            width: 200px;
+        }
+
+        img {
+            position: relative;
+            left: 60px;
+            width: 200px;
+        }
+    }
+
+
+    .containerrrr {
+        img {
+            position: relative;
+            left: 50px;
+        }
+
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .container2, .container3 {
+        width: 100%;
+        align-items: center;
+        position: relative;
+        right: 80px;
+        
+        
+
+        img {
+            align-items: center;
+            width: 200px;
+        }
+    }
+
+.fotosvintage {
+    display: none;
+}
+
+.sale {
+    display: flex;
+    align-items: center;
+
+
+    img {
+        width: 200px;
+        align-items: center;
+
+    }
+}
+
+.imagenes2 {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+
+    img {
+        width: 200px;
+        align-items: center;
+        position: relative;
+        left: 80px;
+    }
+}
+
+.wpp {
+    display: none;
+
+}
+
+.tituloabajo {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+    padding-bottom: 60px;
+
+    h1,
+    h2,
+    h3 {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    h3 {
+        padding-left: 30px;
+    }
+}
+
+footer {
+    width: 100%;
+
+    p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    a {
+        font-size: 10px;
+    }
+}
 }

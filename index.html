@@ -35,16 +35,33 @@
             </a>
         </div>
         <nav>
-            <div class="navegador">
-                <ul class="nav-links">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="././html/collection.html">Collection</a></li>
-                    <li><a href="././html/calzado.html">Calzado</a></li>
-                    <li><a href="././html/productos.html">Productos</a></li>
-                    <li><a href="././html/talleres.html">Talleres</a></li>
-                </ul>
+            <div class="menuhamburguesa">
+                <label for="menu" class="nav__label">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="menu" class="nav__input">
+
+                <div class="navegador">
+                    <ul class="nav-links">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="././html/collection.html">Collection</a></li>
+                        <li><a href="././html/calzado.html">Calzado</a></li>
+                        <li><a href="././html/productos.html">Productos</a></li>
+                        <li><a href="././html/talleres.html">Talleres</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Enter</button>
+                </form>
+            </div>
+        </nav>
+
+
 
     </header>
     <article class="imagen-home">

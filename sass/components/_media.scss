@@ -1,0 +1,9 @@
+@media (max-width: 350px){
+    nav li{
+        flex-direction: column;
+
+        a {
+            color: aqua;
+        }
+    }
+}
